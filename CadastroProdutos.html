@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-     PAINEL DE CONTROLE | Clientes
+     PAINEL DE CONTROLE | Cadastro Produtos 
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -36,7 +36,7 @@
 </head>
 
 <body class="g-sidenav-show bg-gray-100">
-  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('assets/img/consultoria'); background-position-y: 50%;">
+  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('../assets/img/consultoria'); background-position-y: 50%;">
     <span class="mask bg-primary opacity-6"></span>
   </div>
   <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 " id="sidenav-main">
@@ -60,24 +60,24 @@
         </li>
          <!-- Cadastro de clientes-->
           <li class="nav-item">
-          <a class="nav-link active" href="#">
+          <a class="nav-link " href="../pages/CadastroClientes.html">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Cadastro de Clientes</span>
           </a>
         </li>
-        <!-- Cadastro de Produtos-->
-         <li class="nav-item">
-          <a class="nav-link " href="../pages/CadastroProdutos.html">
+        <!-- Cadastro de Produtos--> 
+        <li class="nav-item">
+          <a class="nav-link active" href="#">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Cadastro de Produtos</span>
           </a>
         </li>
-         <!-- Cadastro de Serviços-->
-          <li class="nav-item">
+         <!-- Cadastro de Serviços--> 
+         <li class="nav-item">
           <a class="nav-link " href="../pages/CadastroServicos.html">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
@@ -96,8 +96,8 @@
             </a>
         </li>  
        
-         <!-- Relatório de Produtos-->
-          <li class="nav-item">
+         <!-- Relatório de Produtos--> 
+         <li class="nav-item">
           <a class="nav-link " href="../pages/RelatorioProdutos.html">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
@@ -106,8 +106,7 @@
             </a>
         </li>  
        
-        <!-- Relatório de Serviços--> 
-        <li class="nav-item">
+        <!-- Relatório de Serviços--> <li class="nav-item">
           <a class="nav-link " href="../pages/RelatorioServicos.html">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
@@ -312,10 +311,10 @@
           <div class="col-auto my-auto">
             <div class="h-100">
               <h5 class="mb-1">
-                Cadastro de Clientes
+                Cadastro de Produtos
               </h5>
               <p class="mb-0 font-weight-bold text-sm">
-                Cadastre seus Clientes
+                Cadastre seus Produtos
               </p>
             </div>
           </div>
@@ -352,193 +351,42 @@
           <div class="card">
             <div class="card-header pb-0">
               <div class="d-flex align-items-center">
-                <p class="mb-0">Cadastre seu perfil</p>
+                <p class="mb-0">Cadastre seus produtos</p>
                 <button class="btn btn-primary btn-sm ms-auto">Enviar</button>
               </div>
             </div>
             <div class="card-body">
-              <p class="text-uppercase text-sm">Informações do usuário</p>
-
- <!-- Minha GRID-->
- <div class="row">
-  <div class="col-md-12">
-    <div class="form-group">
-      <label for="example-text-input" class="form-control-label">Nome:</label>
-      <input class="form-control" type="text" value="">
-    </div>
-  </div>
-    <div class="col-md-6">
-      <div class="form-group">
-        <label for="example-text-input" class="form-control-label">Endereço:</label>
-        <input class="form-control" type="text" value="">
-      </div>
-    </div>
-      <div class="col-md-6">
-        <div class="form-group">
-          <label for="example-text-input" class="form-control-label">Complemento:</label>
-          <input class="form-control" type="text" value="">
-        </div>
-      </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="example-text-input" class="form-control-label">Bairro:</label>
-            <input class="form-control" type="text" value="">
-          </div>
-        </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="example-text-input" class="form-control-label">Estado:</label>
-              <select class="form-control" name="estado">
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-                <option value="EX">Estrangeiro</option>
-            </select>
-            </div>
-          </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="example-text-input" class="form-control-label">Cep:</label>
-                <input class="form-control" type="text" value="">
-              </div>
-            </div>
-              <div class="col-md-6">
-                <div class="col-md-6">
+              <p class="text-uppercase text-sm">Informações do Produto</p>
+              
+              <!-- Minha GRID-->
+              <div class="row">
+                <div class="col-md-12">
                   <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Perfil:</label>
-                    <select class="form-control" name="estado">
-                      <option value="AC">1</option>
-                      <option value="AL">2</option>
-                    </select>
+                    <label for="example-text-input" class="form-control-label">Nome:</label>
+                    <input class="form-control" type="text" value="">
                   </div>
-                </div>  
-              </div>  
-  </div>
-<hr>
-            <div class="row">
-            <div class="col-md-12">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="example-text-input" class="form-control-label">Email:</label>
-                  <input class="form-control" type="text" value="">
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="example-text-input" class="form-control-label">Telefone:</label>
-                  <input class="form-control" type="text" value="">
-                </div>
-              </div>
-              </div>
-                <div class="col-md-6">
-                </div>
-                  <div class="col-md-6">
-                    <div class="col-md-6">
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="example-text-input" class="form-control-label">Preço:</label>
+                      <input class="form-control" type="text" value="">
+                    </div>
+                  </div>
+                    <div class="col-md-3">
                       <div class="form-group">
-                        <label for="example-text-input" class="form-control-label">Celular:</label>
+                        <label for="example-text-input" class="form-control-label">Quantidade:</label>
                         <input class="form-control" type="text" value="">
                       </div>
                     </div>
-                  </div>
-                    <div class="col-md-6">
-                    </div>
-            </div>        
-            <!-- FIM DA GRID-->
-              <!--
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Nome do usuário</label>
-                    <input class="form-control" type="text" value="lucky.jesse">
-                  </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="example-text-input" class="form-control-label">Fabricante:</label>
+                          <input class="form-control" type="text" value="">
+                        </div>
+                      </div> 
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Email</label>
-                    <input class="form-control" type="email" value="jesse@example.com">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Primeiro nome</label>
-                    <input class="form-control" type="text" value="Jesse">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Último nome</label>
-                    <input class="form-control" type="text" value="Lucky">
-                  </div>
-                </div>
-              </div>
-              <hr class="horizontal dark">
-              <p class="text-uppercase text-sm">Informações para contato</p>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Endereço</label>
-                    <input class="form-control" type="text" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Cidade</label>
-                    <input class="form-control" type="text" value="New York">
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">País</label>
-                    <input class="form-control" type="text" value="United States">
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">CEP</label>
-                    <input class="form-control" type="text" value="437300">
-                  </div>
-                </div>
-              </div>
-              <hr class="horizontal dark">
-              <p class="text-uppercase text-sm">Sobre mim</p>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Sobre mim</label>
-                    <input class="form-control" type="text" value="A beautiful Dashboard for Bootstrap 5. It is Free and Open Source.">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
+          </div>      
+          <!--  <div class="col-md-4">
           <div class="card card-profile">
             <img src="../assets/img/bg-profile.jpg" alt="Image placeholder" class="card-img-top">
             <div class="row justify-content-center">
@@ -593,8 +441,7 @@
               </div>
             </div>
           </div>
-        </div>
-       -->
+        </div> -->
       </div>
       <footer class="footer pt-3  ">
         <div class="container-fluid">
